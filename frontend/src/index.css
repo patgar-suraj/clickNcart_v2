@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* For Chrome, Safari, Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none; /* hide scrollbar */
+  -ms-overflow-style: none; /* for IE and Edge */
+}
